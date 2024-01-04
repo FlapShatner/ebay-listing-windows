@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+
+    color: #f1f1f1;
+    background-color: black;
+}
+
+h1 {
+    margin-top: 200px;
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #d2ac53;
+    margin-bottom: 1rem;
+}
+
+.nav-btn {
+    place-self: center;
+}
+
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.header-nav {
+    display: grid;
+    grid-template-columns: 1fr 247px 1fr;
+    gap: 40px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-bg {
+    z-index: -10;
+}
+
+.block {
+    background-color: #111111;
+    padding: 20px 30px;
+    border-left: 2px solid #d2ac53;
+    margin-top: 30px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f1f1f1;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.description {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 1.25rem;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.featured {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    padding: 45px 0;
+    background-image: url('https://res.cloudinary.com/dkxssdk96/image/upload/v1704401741/prmotion-bg_gzmjoq.png');
+}
+
+.feat-img {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 30px;
+}
+
+.banner {
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dkxssdk96/image/upload/v1704403194/feat_bg_cvsrl9.png');
+    background-size: cover;
+}
+
+.measure-bg {
+    background-color: #111111;
+    width: 100%;
+}
+
+.measure-heading {
+    text-align: center;
+}
+
+.measure-wrapper {
+    display: flex;
+}
+
+.measure-section {
+    padding: 30px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.measure {
+    margin: 0 auto;
+    object-fit: contain;
+    max-width: 100%;
+
+}
+
+.measure-directions {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+ul {
+    margin: 0 auto;
+    max-width: 450px;
+    text-align: start;
+}
+
+li {
+    padding: 7px;
+    font-size: 1rem;
+}
+
+.ordering {
+    border-top: 3px solid #d2ac53;
+    padding: 30px 0;
+}
+
+.ordering h2 {
+    text-align: center;
+}
+
+.ordering-directions {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.important {
+    color: #d2ac53;
+    text-decoration: underline;
+}
+
+
+ul.sub-list>li {
+    padding: 3px;
+    margin-left: 20px;
+}
+
+.ordering-list {
+    max-width: 300px;
+    margin: 10px 0 0 50px;
+}
