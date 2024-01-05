@@ -96,6 +96,7 @@ h2 {
     width: 100%;
     background-image: url('https://res.cloudinary.com/dkxssdk96/image/upload/v1704403194/feat_bg_cvsrl9.png');
     background-size: cover;
+    border-top: 3px solid #d2ac53;
 }
 
 .measure-bg {
@@ -161,6 +162,11 @@ li {
     text-decoration: underline;
 }
 
+.list-wrap {
+    max-width: max-content;
+    margin: 0 auto;
+}
+
 
 ul.sub-list>li {
     padding: 3px;
@@ -170,4 +176,60 @@ ul.sub-list>li {
 .ordering-list {
     max-width: 300px;
     margin: 10px 0 0 50px;
+}
+
+.footer {
+    padding-inline: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.payment {
+    display: flex;
+    gap: 40px;
+}
+
+.items-center {
+    display: grid;
+    align-content: center;
+}
+
+.order-heading h3 {
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+.order-heading {
+    width: 100%;
+}
+
+.install h2 {
+    text-align: center;
+}
+
+.install {
+    padding: 40px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px
+}
+
+.video h3 {
+    max-width: max-content;
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+
+.video {
+    max-width: 400px;
+}
+
+.video img {
+    margin: 0 auto;
+    max-width: 400px;
 }
