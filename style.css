@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
+
 body {
     width: 100%;
     font-family: 'Jost', sans-serif;
-
     color: #f1f1f1;
     background-color: black;
 }
@@ -50,6 +50,11 @@ h2 {
 
 .header-bg {
     z-index: -10;
+    width: 100vw;
+}
+
+.header-bg img {
+    width: 100vw;
 }
 
 .block {
