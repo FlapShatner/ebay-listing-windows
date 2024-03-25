@@ -22,6 +22,7 @@ body {
 
 h1 {
     margin-top: 200px;
+    padding-top: 30px;
     font-size: 2.25rem;
 }
 
@@ -29,6 +30,18 @@ h2 {
     font-size: 1.5rem;
     color: var(--accent);
     margin-bottom: 1rem;
+}
+
+.usa {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.usa-container {
+    width: 75%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: -12px;
 }
 
 .nav-btn {
